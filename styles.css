@@ -1,0 +1,134 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #a29bfe;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #a29bfe;
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 1.5rem;
+}
+
+.nav ul li a:hover {
+    color: #6c5ce7;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #2d2d44, #1e1e2f);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    padding: 0.8rem 2rem;
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background: #a29bfe;
+}
+
+/* Productos */
+.productos {
+    padding: 4rem 2rem;
+    background: #252538;
+}
+
+.productos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.producto-card {
+    background: #333;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.producto-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto-card h3 {
+    margin: 1rem 0;
+}
+
+.producto-card button {
+    padding: 0.5rem 1.5rem;
+    background: #6c5ce7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.producto-card button:hover {
+    background: #a29bfe;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #111;
+}
